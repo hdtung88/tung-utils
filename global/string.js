@@ -3,7 +3,7 @@ export default {
     initialize: function () {
 
 
-        String.prototype.val = function (variable) {
+        String.val = function (variable) {
             return isset(variable) ? variable.toString() : '';
         };
 
