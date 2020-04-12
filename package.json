@@ -1,0 +1,19 @@
+{
+  "name": "tung-utils",
+  "version": "1.0.0",
+  "description": "Some useful javascript utility functions to make life easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tunghd",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdtung88/tung-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hdtung88/tung-utils/issues"
+  },
+  "homepage": "https://github.com/hdtung88/tung-utils#readme"
+}
