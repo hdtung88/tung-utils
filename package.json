@@ -1,6 +1,6 @@
 {
   "name": "tung-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some useful javascript utility functions to make life easier",
   "main": "index.js",
   "scripts": {
