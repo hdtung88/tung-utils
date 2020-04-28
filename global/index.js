@@ -1,7 +1,3 @@
-import string from './string';
-import array from './array';
-import math from './math';
-
 export default {
 
     initialize: function () {
