@@ -38,35 +38,6 @@ export default {
 
 
         /**
-         * Merge defaults with user options
-         * @private
-         * @param {Object} defaults Default settings
-         * @param {Object} options User options
-         * @returns {Object} Merged values of defaults and options
-         */
-        wd.extend = function (defaults, options) {
-            var extended = {};
-            var prop;
-            for (prop in defaults) {
-                if (Object.prototype.hasOwnProperty.call(defaults, prop)) {
-                    extended[prop] = defaults[prop];
-                }
-            }
-            for (prop in options) {
-                if (Object.prototype.hasOwnProperty.call(options, prop)) {
-                    extended[prop] = options[prop];
-                }
-            }
-            return extended;
-        };
-
-
-        wd.enumHasValue = function (e, v) {
-            return Object.values(e).indexOf(v) >= 0;
-        };
-
-
-        /**
          * Get the integer value out of a variable. 
          * If the variable is not a number, return nanValue param.
          * @param	variable The variable to get integer from.
@@ -228,11 +199,7 @@ export default {
             };
 
         })(document);
-
-
-        string.initialize();
-        array.initialize();
-        math.initialize();
+        
     },
 
 };
